@@ -1,0 +1,136 @@
+@media(max-width: 1500px) {
+    .about-us-wrapper img {
+        grid-row: 3/-1;
+    }
+    .ontect-wrapper {
+        width: 80%;
+        height: 65rem;
+    }
+
+    .card {
+        width: 30rem;
+    }
+    .footer-content{
+        width: 80%;
+    }
+}
+@media (max-width:1400px) {
+
+    .banner h1 {
+
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+    .banner p {
+        font-size: 3rem;
+    }
+    .banner button {
+        width: 20rem;
+        height: 5rem;
+        font-size: 1.6rem;
+    }
+    .menu-link {
+        font-size: 3rem;
+    }
+
+    .service:nth-child(1) {
+        grid-column: 3/7;
+    }
+    .service:nth-child(2) {
+        grid-column: 2/6;
+    }
+    .service:nth-child(3) {
+        grid-column: 3/7;
+    }
+    .service:nth-child(4) {
+        grid-column: 11/15;
+    }
+    .service:nth-child(5) {
+        grid-column: 12/16;
+    }
+    .service:nth-child(6) {
+        grid-column: 11/15;
+    }
+}
+@media (max-width:1000px) {
+    .team {
+        padding-bottom: 5rem;
+    }
+    .card-wrapper {
+       flex-direction: column;
+       align-items: center;
+       margin-top: 4rem;
+    }
+    .contect-wrapper{
+        width: 90%;
+        height: 55rem;
+    }
+    .contect-heading{
+        margin-bottom: 2rem;
+    }
+    .field {
+        margin: 2rem 0;
+    }
+    .banner h1 {
+
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .banner p {
+        font-size: 2.3rem;
+    }
+    .banner button {
+        width: 18rem;
+        height: 4rem;
+        font-size: 1rem;
+    }
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .service{
+        width: 40rem;
+        margin-bottom: 5rem;
+    }
+    .about-us-wrapper {
+        width: 40rem;
+    }
+    .about-us-wrapper img {
+        width: 100%;
+    }
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        gap: 1rem;
+    }
+    .copyright{
+        order: 1;
+        margin-bottom: 0.8rem;
+    }
+}
+@media (max-width:700px){
+    .header{
+        height: 50vh;
+        padding-bottom: 0%;
+    }
+    .banner h1 {
+
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .banner p {
+        font-size: 2rem;
+    }
+    .field {
+        width: 30rem;
+    }
+    .sidebar{
+        width: 100%;
+        right: -100%;
+    }
+    .change .humburger-menu{
+        right: 38rem;
+    }
+}

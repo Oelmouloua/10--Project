@@ -1,0 +1,89 @@
+.contect{
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect-wrapper {
+    width: 60%;
+    height: 48rem;
+    display: flex;
+    box-shadow: 1rem 0.4rem rgba($color: #000000, $alpha: 0.3);
+}
+.contect-left {
+    width: 35%;
+    background: linear-gradient(to top rgba(#222, 0.8), rgba(#555, 0.3)), url(/img/pexels-how-far-from-home-7026306.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contect-right {
+    width: 65%;
+    background-color: #eee;
+    padding: 3rem 8rem 8rem 8rem;
+}
+.contect-heading {
+    font-family: 'Baloo Da 2' serif;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #272727;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.contect-right form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group {
+    position: relative;
+}
+.field {
+    width: 29rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px dashed #636363;
+    padding: 1rem 1rem 1rem 0;
+    margin: 2rem 0;
+    font-size: 1,4rem;
+    color: #4b4b4b;
+    transition: all 0.4s ease;
+}
+.field:focus {
+    border-bottom-style: solid;
+}
+.input-group input {
+    height: 3rem;
+}
+.input-group textarea {
+    max-height: 9rem;
+}
+.input-group label{
+    position: absolute;
+    bottom: 2.4rem;
+    left: 0rem;
+    font-family: 'Baloo Da 2 ' sans-serif;
+    font-size: 1.4rem;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+.field:focus~label{
+    transform: translateY(-3rem);
+    font-size: 0.4rem;
+}
+.submit-btn{
+    width: 29rem;
+    height: 5rem;
+    background-color: #c29525;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
